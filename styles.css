@@ -1,0 +1,660 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600;700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  padding: 150px;
+  height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-image: url(./worktreeassets/SEP\ TREE\ \ SAMPLE\ 1.png);
+}
+
+.lets-find{
+  color: rgba(240, 248, 255, 0);
+  border: none;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  padding: 20px;
+  font-size: 10px;
+  opacity: .2;
+  background-color: rgba(210, 105, 30, 0.007);
+}
+
+/*RED TABS*/
+.lets__find{
+  color: rgba(245, 222, 179, 0.386);
+  background-color: rgba(255, 0, 0, 0.25);
+  padding: 5px;
+}
+/*RED TAB-POSITIONS*/
+/*
+.number1{
+  position: absolute;
+  top: 180px;
+  left: 25px;
+}
+
+.number2{
+  position: absolute;
+  top: 240px;
+  left: 125px;
+}
+.number3{
+  position: absolute;
+  top: ;
+  left: ;
+}
+.number4{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number5{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number6{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number7{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number8{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number9{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number10{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number11{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number12{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number13{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number14{
+  position: absolute;
+  top: ;
+  left:;
+}
+.number15{
+  position: absolute;
+  top: ;
+  left: ;
+}
+.number16{
+  position: absolute;
+  top: ;
+  left: ;
+}
+.number17{
+  position: absolute;
+  top: ;
+  left: ;
+}
+.number18{
+  position: absolute;
+  top: ;
+  left: ;
+}
+.number19{
+  position: absolute;
+  top: ;
+  left: ;
+}
+
+
+/*YES/NO*/
+
+.yes-no__wrapper{
+  display: flex;
+  position: absolute;
+}
+.yes-no1{
+  top: -175px;
+  left:20px;
+  position: absolute;
+  margin: 4px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no2{
+  position: absolute;
+  top: 133px;
+  left: 75px;
+  margin: 4px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no3{
+  position: absolute;
+  top:-139px;
+  left: 140px;
+  margin: 4px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no4{
+  position: absolute;
+  top: 20px;
+  margin: 4px;
+  left: 200px;
+  border-radius: 15px;
+  font-size: 10px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no5{
+  position: absolute;
+  top: -183px;
+  left: 280px;
+  padding:10px 12px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no6{
+  position: absolute;
+  top: 53px;
+  left: 376px;
+  padding:12px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no7{
+  position: absolute;
+  top: -150px;
+  left: 440px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no8{
+  position: absolute;
+  top:-58px;
+  left: 611px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no9{
+  position: absolute;
+  top: -105px;
+  left: 740px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no10{
+  position: absolute;
+  top: 10px;
+  left: 805px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no11{
+  position: absolute;
+  top: -110px;
+  left: 893px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no12{
+  position: absolute;
+  top: 462px;
+  left: 1041px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no13{
+  position: absolute;
+  top:120px ;
+  left:680px ;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no14{
+  position: absolute;
+  top:315px ;
+  left:685px ;
+  padding:15.5px 15.5px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no15{
+  position: absolute;
+  top:-74.5px;
+  left:-75px ;
+  padding:12px 12px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no16{
+  position: absolute;
+  top: 426.8px;
+  left: 860px;
+  padding:10px 12px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no17{
+  position: absolute;
+  left: 973px;
+  top: 325px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no18{
+  position: absolute;
+  left:1070px ;
+  top:242px ;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no19{
+  position: absolute;
+  top: -33px;
+  left: 35px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no20{
+  position: absolute;
+  top: 9px;
+  left: 85px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no21{
+  position: absolute;
+  left:-10px ;
+  top: 118.8px;
+  padding:18px 18px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no22{
+  position: absolute;
+  left: 115px;
+  top: -212px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no23{
+  position: absolute;
+  top: 122.9px;
+  left: 299px;
+  padding:24px 25px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no24{
+  position: absolute;
+  top:-95px ;
+  left:210px ;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no25{
+  position: absolute;
+  top: -50px;
+  left: 463px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no26{
+  position: absolute;
+  top: -252px;
+  left: 475px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no27{
+  position: absolute;
+  top:-200px ;
+  left:689px ;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no28{
+  position:absolute;
+  left: 508px;
+  top: 315px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no29{
+  position: absolute;
+  left:725px ;
+  top: 430px;
+  padding:8px 10px;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+  
+}
+.yes-no30{
+  position: absolute;
+  left: 790px;
+  top:120px ;
+  border-radius: 15px;
+  font-size: 15px;
+  padding:5px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+.yes-no31{
+  position: absolute;
+  left: 877px;
+  top:233px ;
+  border-radius: 100px;
+  font-size: 15px;
+  padding:10px 12px;
+  background-color: rgb(10, 10, 10);
+  color:rgba(255, 213, 0, 0.493);
+  font-weight: 900;
+}
+
+.yes-no32{
+  color: rgba(0, 0, 0, 0);
+}
+
+.dummy-section{
+  height: 100vh;
+  color: rgba(255, 255, 255, 0);
+  
+
+}
+
+.dummy-section-2{
+height: 1vh;
+margin: 40vh;
+width: 140vh;
+border: none;
+background-color: rgba(0, 0, 0, 0);
+}
+marquee{
+  box-shadow: rgb(205, 194, 133) 1px 1px 10px 10px;
+  margin:0 auto;
+  border-radius: 100px;
+  color: rgb(184, 103, 27);
+  background-color: rgba(255, 0, 0, 0.201);
+  position: absolute;
+  top: 500px;
+  max-width: 400px;
+  font-weight: 900;
+  font-style: italic;
+}
+.yes-no1:hover{
+  border: solid orange;
+  transition: all ease 300ms;
+}
+.yes-no2:hover{
+  border: solid orange;
+}
+.yes-no3:hover{
+  border: solid orange;
+}
+.yes-no4:hover{
+  border: solid orange;
+}
+.yes-no5:hover{
+  border: solid orange;
+}
+.yes-no6:hover{
+  border: solid orange;
+}
+.yes-no7:hover{
+  border: solid orange;
+}
+.yes-no8:hover{
+  border: solid orange;
+}
+.yes-no9:hover{
+  border: solid orange;
+}
+.yes-no10:hover{
+  border: solid orange;
+}
+.yes-no11:hover{
+  border: solid orange;
+}
+.yes-no12:hover{
+  border: solid orange;
+}
+.yes-no13:hover{
+  border: solid orange;
+}
+.yes-no14:hover{
+  border: solid orange;
+}
+.yes-no15:hover{
+  border: solid orange;
+}
+.yes-no16:hover{
+  border: solid orange;
+}
+.yes-no17:hover{
+  border: solid orange;
+}
+.yes-no18:hover{
+  border: solid orange;
+}
+.yes-no19:hover{
+  border: solid orange;
+}
+.yes-no20:hover{
+  border: solid orange;
+}
+.yes-no21:hover{
+  border: solid orange;
+}
+.yes-no22:hover{
+  border: solid orange;
+}
+.yes-no23:hover{
+  border: solid orange;
+}
+.yes-no24:hover{
+  border: solid orange;
+}
+.yes-no25:hover{
+  border: solid orange;
+}
+.yes-no26:hover{
+  border: solid orange;
+}
+.yes-no27:hover{
+  border: solid orange;
+}
+.yes-no28:hover{
+  border: solid orange;
+}
+.yes-no29:hover{
+  border: solid orange;
+}
+.yes-no30:hover{
+  border: solid orange;
+}
+.yes-no31:hover{
+  border: solid orange;
+}
