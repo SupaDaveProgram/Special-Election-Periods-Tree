@@ -12,6 +12,7 @@ html {
 }
 
 body{
+  max-width: 2300px;
   padding: 150px;
   height: 100vh;
     display: flex;
