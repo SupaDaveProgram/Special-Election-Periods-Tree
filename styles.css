@@ -21,7 +21,7 @@ body{
 }
 
 .lets-find{
-  color: rgba(240, 248, 255, 0);
+  color: rgba(240, 248, 255, 0.159);
   border: none;
   position: absolute;
   top: 60px;
@@ -34,9 +34,10 @@ body{
 
 /*RED TABS*/
 .lets__find{
-  color: rgba(245, 222, 179, 0.386);
-  background-color: rgba(255, 0, 0, 0.25);
-  padding: 5px;
+  color: rgba(245, 222, 179, 0.727);
+  background-color: rgba(255, 0, 0, 0.443);
+  padding: 10px;
+
 }
 /*RED TAB-POSITIONS*/
 
@@ -53,78 +54,78 @@ body{
 }
 .number3{
   position: absolute;
-  top: ;
-  left: ;
+  top:225px ;
+  left:560px ;
 }
 .number4{
   position: absolute;
-  top: ;
-  left:;
+  top: 390px;
+  left:80px;
 }
 .number5{
   position: absolute;
-  top: ;
-  left:;
+  top: 55px;
+  left:310px;
 }
 .number6{
   position: absolute;
-  top: ;
-  left:;
+  top: 410px;
+  left:275px;
 }
 .number7{
   position: absolute;
-  top: ;
-  left:;
+  top:400px ;
+  left:490px;
 }
 .number8{
   position: absolute;
-  top: ;
-  left:;
+  top:340px ;
+  left:565px;
 }
 .number9{
   position: absolute;
-  top: ;
-  left:;
+  top:585px ;
+  left:600px;
 }
 .number10{
   position: absolute;
-  top: ;
-  left:;
+  top:10px ;
+  left:675px;
 }
 .number11{
   position: absolute;
-  top: ;
-  left:;
+  top:70px ;
+  left:880px;
 }
 .number12{
   position: absolute;
-  top: ;
-  left:;
+  top:695px ;
+  left:800px;
 }
 .number13{
   position: absolute;
-  top: ;
-  left:;
+  top:500px ;
+  left:980px;
 }
 .number14{
   position: absolute;
-  top: ;
-  left:;
+  top:150px ;
+  left:1080px;
 }
 .number15{
   position: absolute;
-  top: ;
-  left: ;
+  top:390px ;
+  left: 1000px;
 }
 .number16{
   position: absolute;
-  top: ;
-  left: ;
+  top: 490px;
+  left: 1280px;
 }
 .number17{
   position: absolute;
-  top: ;
-  left: ;
+  top:715px ;
+  left:1255px ;
 }
 .number18{
   position: absolute;
@@ -145,7 +146,7 @@ body{
   position: absolute;
 }
 .yes-no1{
-  top: -175px;
+  top: -150px;
   left:20px;
   position: absolute;
   margin: 4px;
@@ -159,8 +160,8 @@ body{
 }
 .yes-no2{
   position: absolute;
-  top: 133px;
-  left: 75px;
+  top: 155px;
+  left: 78px;
   margin: 4px;
   border-radius: 15px;
   font-size: 15px;
@@ -172,7 +173,7 @@ body{
 }
 .yes-no3{
   position: absolute;
-  top:-139px;
+  top:-115px;
   left: 140px;
   margin: 4px;
   border-radius: 15px;
@@ -185,7 +186,7 @@ body{
 }
 .yes-no4{
   position: absolute;
-  top: 20px;
+  top: 43px;
   margin: 4px;
   left: 200px;
   border-radius: 15px;
@@ -201,7 +202,7 @@ body{
 }
 .yes-no5{
   position: absolute;
-  top: -183px;
+  top: -160px;
   left: 280px;
   padding:10px 12px;
   border-radius: 15px;
@@ -214,7 +215,7 @@ body{
 }
 .yes-no6{
   position: absolute;
-  top: 53px;
+  top: 75px;
   left: 376px;
   padding:12px 10px;
   border-radius: 15px;
@@ -227,7 +228,7 @@ body{
 }
 .yes-no7{
   position: absolute;
-  top: -150px;
+  top: -128px;
   left: 440px;
   padding:8px 10px;
   border-radius: 15px;
@@ -239,7 +240,7 @@ body{
 }
 .yes-no8{
   position: absolute;
-  top:-58px;
+  top:-28px;
   left: 611px;
   padding:8px 10px;
   border-radius: 15px;
@@ -251,7 +252,7 @@ body{
 }
 .yes-no9{
   position: absolute;
-  top: -105px;
+  top: -55px;
   left: 740px;
   padding:8px 10px;
   border-radius: 15px;
@@ -546,10 +547,9 @@ body{
 }
 
 .dummy-section-2{
-height: 1vh;
-margin: 40vh;
-width: 140vh;
-border: none;
+height:8vh;
+margin: 45vh;
+width: 150vh;
 background-color: rgba(0, 0, 0, 0);
 }
 marquee{
